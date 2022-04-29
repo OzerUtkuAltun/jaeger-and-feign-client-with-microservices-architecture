@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+opentracing:
+  jaeger:
+    udp-sender:
+      port: 6831
+      host: localhost
+    log-spans: true
+
+animal:
+  service:
+    prefix: http://localhost:9015
+
+scientist:
+  service:
+    prefix: http://localhost:9016
+
+spring:
+  application:
+    name: name-generator-service

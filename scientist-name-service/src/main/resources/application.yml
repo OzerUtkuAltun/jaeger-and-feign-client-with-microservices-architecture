@@ -1,0 +1,15 @@
+server:
+  port: 9016
+
+spring:
+  application:
+    name:  scientist-name-service
+
+opentracing:
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831
+    log-spans: true
+
+

@@ -1,0 +1,4 @@
+opentracing:
+  jaeger:
+    udp-sender:
+      host: jaeger

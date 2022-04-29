@@ -1,0 +1,13 @@
+server:
+  port: 9015
+
+opentracing:
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831
+    log-spans: true
+
+spring:
+  application:
+    name: animal-name-service

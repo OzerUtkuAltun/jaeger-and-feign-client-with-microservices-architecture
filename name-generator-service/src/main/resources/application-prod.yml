@@ -1,0 +1,17 @@
+opentracing:
+  jaeger:
+    udp-sender:
+      host: jaeger
+
+animal:
+  service:
+    prefix: http://animal-name-service:9015
+
+scientist:
+  service:
+    prefix: http://scientist-name-service:9016
+
+
+spring:
+  application:
+    name: name-generator-service
